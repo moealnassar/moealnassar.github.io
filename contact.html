@@ -18,6 +18,32 @@ background-image: url("http://i.imgur.com/8hWJs8Y.png");
   <h3>Mohammed Portfolio Website</h3>
 <header><h1>Contact</h1></header>
 <body>
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 <nav> 
 <a href="index.html"><i class="fa fa-home"></i> Home |</a>
 <a href="about.html"><i class="fa fa-pencil-square-o"></i> About Me |</a>
@@ -25,7 +51,7 @@ background-image: url("http://i.imgur.com/8hWJs8Y.png");
 <a href="contact.html"><i class="fa fa-comments-o"></i> Contact |</a>
 <a href="resume.html"><i class="fa fa-file-pdf-o"></i> Resume</a
 </nav> 
-<br>
+<br><br>
 <section id="form">
  <form action="demo_form.asp" method="get">
  Name:<br>
@@ -37,4 +63,14 @@ background-image: url("http://i.imgur.com/8hWJs8Y.png");
  </form>
 </section>
 <p>Email me for more information: malnassar@stu.aii.edu</p>
+<br>
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<br>
+<a class="twitter-timeline"
+  data-widget-id="600720083413962752"
+  href="https://twitter.com/TwitterDev"
+  width="300"
+  height="300">
+Tweets by @TwitterDev
+</a>
 </body>
