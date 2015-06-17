@@ -64,3 +64,16 @@ nav a {
     margin-bottom: 13px;    
 }
 
+footer {
+text-align: center;
+background: black;
+color: white;
+position:fixed;
+bottom:0;
+width:100%;
+height:60px;   /* Height of the footer */
+}
+
+#footer a {
+text-decoration: none;
+}
