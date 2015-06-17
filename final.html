@@ -1,108 +1,86 @@
-	<!DOCTYPE html>
-<html lang="es">
-<head>
-<title>Basic Web Final Exam</title>
-<meta charset="utf-8" />
+<!DOCTYPE html>
+<html>
 
-</head>
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="final.css">
+    
+  </head>
 
-<body id="index" class="home">
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Link A</a></li>
+          <li><a href="#">Link B</a></li>
+          <li><a href="#">Link C</a></li>
+        </ul>
+      </div>
+    </div>
 
-<header id="banner" class="body">
-<h1><a href="#">Basic Web Design <strong>HTML5 and CSS</strong></a></h1>
-<nav><ul>
-<li class="active"><a href="#">home</a></li>
-<li><a href="#">about</a></li>
-<li><a href="#">contact</a></li>
-<li><a href="#">projects</a></li>
-</ul></nav>
-</header><!-- /#banner -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Headline 1.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a fermentum erat. Duis in est rutrum, ullamcorper felis at, euismod nibh. Fusce ullamcorper, enim et congue dapibus, turpis lectus pulvinar risus, at porttitor ex turpis at dui. Mauris nunc ligula, luctus vel metus egestas, rutrum semper arcu. In sed nisi ornare, vulputate enim quis, ornare sem. Vivamus non vehicula dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin molestie mollis tortor sed rutrum. Vivamus a nulla placerat, luctus ligula at, ornare lorem. Mauris molestie nisl non porttitor viverra. Nunc scelerisque odio non sollicitudin auctor. Fusce sodales et enim eu euismod. Donec id eros urna. </p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
 
-<aside id="featured" class="body"><article>
-<h2>Featured Article</h2>
-<h3><a href="#">HTML5 Final Exam</a></h3>
-<p>This is the final exam for the Basic Web Design class using <a href="http://dev.w3.org/html5/spec/Overview.html" rel="external">HTML5</a> and <a href="http://www.w3.org/TR/css3-roadmap/" rel="external">CSS3</a></p>
-</article></aside><!-- /#featured -->
-
-<section id="content" class="body"> 
-<ol id="posts-list" class="hfeed">
-
-<li><article class="hentry"> 
-<header>
-<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Blog Post</a></h2>
-</header>
-
-<footer class="post-info">
-<div class="published" title="2013-06-06T13:00:00-00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->
-June 6th, 2013
+<div class="neighborhood-guides">
+    <div class="container">
+        <h2>Header 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a fermentum erat. Duis in est rutrum, ullamcorper felis at, euismod nibh. Fusce ullamcorper, enim et congue dapibus, turpis lectus pulvinar risus, at porttitor ex turpis at dui. Mauris nunc ligula, luctus vel metus egestas, rutrum semper arcu. In sed nisi ornare, vulputate enim quis, ornare sem. Vivamus non vehicula dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin molestie mollis tortor sed rutrum. Vivamus a nulla placerat, luctus ligula at, ornare lorem. Mauris molestie nisl non porttitor viverra. Nunc scelerisque odio non sollicitudin auctor. Fusce sodales et enim eu euismod. Donec id eros urna. </p>
+        <div class="row">
+	      <div  class="col-md-4"> <div class="thumbnail">
+  <img src="http://goo.gl/0sX3jq" >
+</div><div class="thumbnail">
+  <img src="http://goo.gl/an2HXY" >
 </div>
 
-<div class="vcard author">
-By <a class="url fn" href="#">Author</a>
-</div>
-</footer><!-- /.post-info -->
-
-<div class="entry-content">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.</p>
-</div><!-- /.entry-content -->
-</article></li>
-
-<li><article class="hentry"> 
-<header>
-<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Blog Post</a></h2>
-</header>
-
-<footer class="post-info">
-<div class="published" title="2013-06-06T13:00:00-00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->
-June 6th, 2013
+	      </div>
+	        <div  class="col-md-4"> <div class="thumbnail">
+  <img src="http://goo.gl/Av1pac" >
+</div><div class="thumbnail">
+  <img src="http://goo.gl/vw43v1" >
 </div>
 
-<div class="vcard author">
-By <a class="url fn" href="#">Author</a>
+	      </div>
+	        <div  class="col-md-4"> <div class="thumbnail">
+  <img src="http://goo.gl/0Kd7UO" >
 </div>
-</footer><!-- /.post-info -->
 
-<div class="entry-content">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.</p>
-</div><!-- /.entry-content -->
-</article></li>
-</ol><!-- /#posts-list -->
+	      </div>
+	      </div>
+    </div>
+</div>
 
-</section><!-- /#content -->
-
-<section id="extras" class="body">
-<div class="blogroll">
-<h2>blogroll</h2>
-<ul>
-<li><a href="#" rel="external">HTML5 Doctor</a></li>
-</ul>
-</div><!-- /.blogroll -->
-
-<div class="social">
-<h2>social</h2>
-<ul>
-<li><a href="#" rel="me">pinterest</a></li>
-<li><a href="#" rel="me">facebook</a></li>
-<li><a href="#" rel="me">twitter</a></li>
-<li><a href="#" rel="me">linkedin</a></li>
-<li><a href="#" rel="me">youtube</a></li>                                
-</ul>
-</div><!-- /.social -->
-</section><!-- /#extras -->
-
-<footer id="contentinfo" class="body">
-<div id="about" class="vcard body">
-<span class="primary">
-<strong><a href="#" class="fn url">Basic Web Design</a></strong>
-Web Design & Interactive Media
-</span><!-- /.primary -->
-
-
-<span class="bio">
-<p>&copy; 2013<a href="#">Miami International University of Art and Design</a>.</p> 
-        </span>
-</div><!-- /#about -->
-</footer><!-- /#contentinfo -->
-
-</body>
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div  class="col-md-4">
+			<h3>Header 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a fermentum erat. Duis in est rutrum, ullamcorper felis at, euismod nibh. Fusce ullamcorper, enim et congue dapibus, turpis lectus pulvinar risus, at porttitor ex turpis at dui. Mauris nunc ligula, luctus vel metus egestas, rutrum semper arcu. In sed nisi ornare, vulputate enim quis, ornare sem. Vivamus non vehicula dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin molestie mollis tortor sed rutrum. Vivamus a nulla placerat, luctus ligula at, ornare lorem. Mauris molestie nisl non porttitor viverra. Nunc scelerisque odio non sollicitudin auctor. Fusce sodales et enim eu euismod. Donec id eros urna.</p>
+			<p><a href="#">Learn more 1</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Header 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a fermentum erat. Duis in est rutrum, ullamcorper felis at, euismod nibh. Fusce ullamcorper, enim et congue dapibus, turpis lectus pulvinar risus, at porttitor ex turpis at dui. Mauris nunc ligula, luctus vel metus egestas, rutrum semper arcu. In sed nisi ornare, vulputate enim quis, ornare sem. Vivamus non vehicula dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin molestie mollis tortor sed rutrum. Vivamus a nulla placerat, luctus ligula at, ornare lorem. Mauris molestie nisl non porttitor viverra. Nunc scelerisque odio non sollicitudin auctor. Fusce sodales et enim eu euismod. Donec id eros urna. </p>
+			<p><a href="#">Learn more 2</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Header 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a fermentum erat. Duis in est rutrum, ullamcorper felis at, euismod nibh. Fusce ullamcorper, enim et congue dapibus, turpis lectus pulvinar risus, at porttitor ex turpis at dui. Mauris nunc ligula, luctus vel metus egestas, rutrum semper arcu. In sed nisi ornare, vulputate enim quis, ornare sem. Vivamus non vehicula dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin molestie mollis tortor sed rutrum. Vivamus a nulla placerat, luctus ligula at, ornare lorem. Mauris molestie nisl non porttitor viverra. Nunc scelerisque odio non sollicitudin auctor. Fusce sodales et enim eu euismod. Donec id eros urna. </p>
+			<p><a href="#">Learn more 3</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
 </html>
+
